@@ -1,0 +1,17 @@
+.ogranich {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.flex-ogranich {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (width <=370px) {
+        flex-direction: column;
+        row-gap: 24px;
+    }
+}

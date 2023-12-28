@@ -1,0 +1,44 @@
+.header {
+  width: 100%;
+  height: auto;
+  padding: 15px 0;
+  background-color: #ffffff;
+  border-bottom: 1px solid #a1a6b4;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+
+  &_logo {
+    width: 150px;
+    height: auto;
+  }
+
+  @media screen and (width <=370px) {
+    padding: 24px 0;
+    position: relative;
+  }
+}
+.retush {
+  margin-left: 50px;
+}
+
+.social {
+  font-size: 23px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 25px;
+
+  &_link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+    &_white {
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
+}
